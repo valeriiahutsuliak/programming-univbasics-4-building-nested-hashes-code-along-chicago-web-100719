@@ -6,3 +6,4 @@ def first_challenge
 end
 :matriarch => {name: "Lady Montague", age: "54"},
 :hero => {name: "Romeo", age: "15", status: "alive"},
+:hero_friends => [
