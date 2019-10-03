@@ -20,7 +20,7 @@ def bonus
    }
   }
 
-  #code your solution here:
+  it "uses the []= method to change the hero and heroine's status from alive to dead" do
 
   
 
