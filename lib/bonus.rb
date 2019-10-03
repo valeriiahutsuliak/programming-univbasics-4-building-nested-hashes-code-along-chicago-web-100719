@@ -19,15 +19,13 @@ def bonus
       ]
    }
   }
-describe "bonus" do
-  it "uses the []= method to change the hero and heroine's status from alive to dead" do
-    expect(bonus[:montague][:hero][:status]).to eq("dead")
-    expect(bonus[:capulet][:heroine][:status]).to eq("dead")
 
 
 
   
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
-  epic_tragedy
+  epic_tragedy[:Montague][:patriarch][:matriarch][:hero][:status] = "dead"
+  epic_tragedy[:Capulet][:matriarch][:heroine][:status] = "dead"
+  puts epic_tragedy
 end
